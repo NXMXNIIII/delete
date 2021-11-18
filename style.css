@@ -1,9 +1,10 @@
 .div1{
-    background-color: red;
+    background-color: rgb(201, 79, 79);
 }
 .miaou{
-    color:red;
+    color:blue;
 }
-body{
-    background-color: red;
+
+.MIAOU{
+    color: red;
 }
