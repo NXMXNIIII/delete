@@ -6,17 +6,17 @@ body{
     text-align: center;
 }
 .box{
-    height: 50px;
+
 }
 #div1{
-    background-color: rgb(201, 79, 79);
+    background-color: rgb(67, 65, 165);
     height: 100px;
     width: 100px;
     margin:0px;
     display: block;
 }
 #div2{
-    background-color: aqua;
+    background-color: rgb(4, 247, 247);
     height: 100px;
     width: 100px;
 }
