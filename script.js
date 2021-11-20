@@ -30,3 +30,11 @@ for(var i = 0; i < myIds.length;i++){
         }
     })
 }
+
+// #div1 : width : non défini // .box : 200px 
+var classe = document.getElementsByClassName("box")
+console.log(classe.offsetWidth) // undefined
+var idee = document.getElementById("div1")
+console.log(idee.offsetWidth) // 200
+var idee2= getStyleID("div1","width")
+console.log(idee2) // 200px
