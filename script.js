@@ -7,14 +7,26 @@ var myIds = document.querySelectorAll('.box')
 for(var i = 0; i < myIds.length;i++){
     myIds[i].style.transition= "all 1s";
     myIds[i].addEventListener('mouseover',function(){
-        if (this.style.backgroundColor == "rgb(4, 247, 247)"){
-            this.style.backgroundColor = "rgb(42, 165, 138)"
+        if (this.style.backgroundColor == "rgb(218, 247, 166)"){
+            this.style.backgroundColor = "rgb(255, 195, 0)"
         }
-        else if(this.style.backgroundColor == "rgb(42, 165, 138)"){
-            this.style.backgroundColor = "rgb(4, 247, 247)"
+        else if(this.style.backgroundColor == "rgb(255, 195, 0)"){
+            this.style.backgroundColor = "rgb(255, 87, 51)"
+        }
+        else if(this.style.backgroundColor == "rgb(255, 87, 51)"){
+            this.style.backgroundColor = "rgb(199, 0, 57)"
+        }
+        else if(this.style.backgroundColor == "rgb(199, 0, 57)"){
+            this.style.backgroundColor = "rgb(144, 12, 63)"
+        }
+        else if(this.style.backgroundColor == "rgb(144, 12, 63)"){
+            this.style.backgroundColor = "rgb(88, 24, 69)"
+        }
+        else if(this.style.backgroundColor == "rgb(88, 24, 69)"){
+            this.style.backgroundColor = "rgb(218, 247, 166)"
         }
         else{
-            this.style.backgroundColor = "rgb(4, 247, 247)"
+            this.style.backgroundColor = "rgb(218, 247, 166)"
         }
     })
 }
