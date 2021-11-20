@@ -6,7 +6,8 @@ body{
     text-align: center;
 }
 .box{
-
+    position: relative;
+    
 }
 #div1{
     background-color: rgb(67, 65, 165);
@@ -22,6 +23,17 @@ body{
 }
 #div3{
     background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+#div4{
+    background-color: rgb(42, 165, 138);
+    height: 100px;
+    width: 100px;
+}
+#div5{
+    background-color: rgb(141, 46, 179);
     height: 100px;
     width: 100px;
 }
