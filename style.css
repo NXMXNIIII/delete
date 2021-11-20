@@ -5,34 +5,32 @@ body{
     color: red;
     text-align: center;
 }
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .box{
     position: relative;
-    width:200px;
+    min-width:200px;
+    min-height: 200px;
 }
 #div1{
     background-color: rgb(67, 65, 165);
-    height: 100px;
-    margin:0px;
-    display: block;
 }
 #div2{
     background-color: rgb(4, 247, 247);
-    height: 100px;
-    width: 100px;
 }
 #div3{
     background-color: brown;
-    height: 100px;
-    width: 100px;
 }
 
 #div4{
     background-color: rgb(42, 165, 138);
-    height: 100px;
-    width: 100px;
 }
 #div5{
     background-color: rgb(141, 46, 179);
-    height: 100px;
-    width: 100px;
+}
+#div6{
+    background-color: rgb(141, 46, 179);
 }
