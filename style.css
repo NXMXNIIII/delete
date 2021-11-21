@@ -9,11 +9,29 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+#menu{
+    width:100%;
+    height: 50px;
+}
+#gauche{
+    width:49%;
+}
+#droite{
+    width:49%;
+}
+#gauche,#droite{
+    border:1px solid black;
+    border-radius: 25px;
+    height: 50px;
 }
 .box{
     position: relative;
-    min-width:200px;
-    min-height: 200px;
+    width:33.33%;
+    min-width: 500px;
+    height: 500px;
+    border-radius: 30px;
 }
 #div1{
     background-color: rgb(67, 65, 165);

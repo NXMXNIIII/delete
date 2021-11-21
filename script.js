@@ -38,3 +38,22 @@ var idee = document.getElementById("div1")
 console.log(idee.offsetWidth) // 200
 var idee2= getStyleID("div1","width")
 console.log(idee2) // 200px
+
+
+// ////////////////// classes
+var episode = {
+    titre: "MiaouLand",
+    duree: 20,
+    vues:1,
+}
+console.log(episode.titre) // MiaouLand
+
+// La notation bracket
+var deux = "titre";
+console.log(episode[deux]) // MiaouLand
+// La notation bracket
+
+document.querySelector('.TITLE').innerText = `Episode: ${episode["titre"]}
+Durée: ${episode["duree"]} min
+${episode["vues"] ? 'VU' : 'Pas vu'}`
+
