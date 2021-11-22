@@ -57,3 +57,26 @@ document.querySelector('.TITLE').innerText = `Episode: ${episode["titre"]}
 Durée: ${episode["duree"]} min
 ${episode["vues"] ? 'VU' : 'Pas vu'}`
 
+class film {
+    constructor(titre, duree, vu){
+        this.titre = titre;
+        this.duree = duree;
+        this.vu = vu;
+    }
+}
+
+var filmee = new film("La planète des singes",20,false)
+document.querySelector("#menu").innerText = `Titre : ${filmee["titre"]}
+Durée : ${filmee["duree"]} min
+${episode["vu"] ? 'VU' : 'Pas vu'} `
+
+console.log(filmee["vu"])
+
+console.log("-- LISTE --")
+var lista = [];
+lista.push("Ye  ","miaou")
+lista.unshift("YA",[20,"LELE"])
+lista.push(["Dernier",[1,2,3]])
+console.log(lista)
+lista[4][1].pop()
+console.log(lista)
